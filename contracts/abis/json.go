@@ -9,7 +9,7 @@ const StakingJSONABI = `[
 	{
 		"anonymous": false,
 		"inputs": [
-			{
+			{  
 				"indexed": true,
 				"internalType": "address",
 				"name": "account",
@@ -72,7 +72,7 @@ const StakingJSONABI = `[
 				"name": "",
 				"type": "address"
 			}
-		],
+		],  
 		"stateMutability": "view",
 		"type": "function"
 	},
@@ -119,7 +119,7 @@ const StakingJSONABI = `[
 ]`
 const StressTestJSONABI = `[
     {
-      "inputs": [],
+      "inputs": [], 
       "stateMutability": "nonpayable",
       "type": "constructor"
     },
